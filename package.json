@@ -1,0 +1,22 @@
+{
+  "name": "used-car-roadz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "import:cars": "node scripts/import-cars.mjs",
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "build:with-import": "npm run import:cars && next build --webpack",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.2.6"
+  }
+}

@@ -1,0 +1,111 @@
+# ROADZ Used Cars
+
+Next.js website for ROADZ Used Cars, designed from the red/black ROADZ visual direction.
+
+## Current Scope
+
+- Home page matching the red/black premium used-car style
+- Car detail page with gallery, sidebar CTA, seller card, trust points, installment panel, and related cars
+- Real installment calculator with a Next.js API route at `/api/finance`
+- Car data imported from one folder per car in `ไฟล์รถ/*`
+- Car images copied into `public/cars/<slug>/`
+- All contact actions point to LINE: `https://line.me/ti/p/Sc8V8TxeYc`
+- No phone number is displayed in the UI
+- SEO sitemap and robots routes
+- Per-car on-page article section
+
+## Run Locally
+
+```bash
+cd /Users/thongpotter/Documents/Me/used-car-roadz
+./node_modules/.bin/next dev --webpack -H 127.0.0.1 -p 3000
+```
+
+Then open:
+
+```text
+http://127.0.0.1:3000
+```
+
+## Verified
+
+```bash
+npm run build
+```
+
+Build passes in this workspace.
+
+## Import Car Folders
+
+Add one folder per car inside the source folder:
+
+```text
+ไฟล์รถ/
+  A260510No-10000/
+    car.txt or any .txt/.md file
+    LINE_NOTE_...jpg
+  A260504Ni/
+    car.txt
+    LINE_NOTE_...jpg
+```
+
+Then run:
+
+```bash
+npm run import:cars
+```
+
+The importer reads every car folder, copies images into `public/cars/<slug>/`, and writes `data/generated-cars.js`.
+
+Recommended file format: [docs/car-folder-template.md](./docs/car-folder-template.md)
+
+Optional on-page article files are supported per car folder:
+
+```text
+article.md
+onpage.md
+content.md
+```
+
+Example:
+
+```md
+# HONDA CITY e:HEV RS มือสอง น่าใช้ไหม
+
+## เหมาะกับใคร
+## จุดเด่น
+## ไฟแนนซ์
+
+เนื้อหาบทความสำหรับทำ SEO/on-page ของรถคันนี้...
+```
+
+This article appears at the bottom of each car detail page.
+
+For another source location:
+
+```bash
+CARS_SOURCE_DIR="/path/to/ไฟล์รถ" npm run import:cars
+```
+
+Before pushing to GitHub/Vercel, run:
+
+```bash
+npm run import:cars
+npm run build
+```
+
+## Vercel
+
+Set this environment variable in Vercel after you know the production domain:
+
+```text
+NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
+```
+
+Vercel build command:
+
+```bash
+npm run build
+```
+
+Important: Vercel uses the committed `data/generated-cars.js` and `public/cars/` files. Run `npm run import:cars` locally before committing whenever car folders change.
