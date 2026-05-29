@@ -1171,6 +1171,127 @@ select {
   font-size: 14px;
 }
 
+.wordpress-editor {
+  background: #0a0a0a;
+}
+
+.wp-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 16px;
+}
+
+.wp-main {
+  min-width: 0;
+}
+
+.wp-meta {
+  position: sticky;
+  top: 18px;
+  align-self: start;
+}
+
+.wp-box {
+  padding: 0;
+  overflow: hidden;
+}
+
+.wp-box-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--line);
+  background: #141414;
+  padding: 14px 16px;
+}
+
+.wp-box-head h3 {
+  margin: 0;
+  font-size: 19px;
+}
+
+.wp-box-head span {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.wp-box > .admin-field,
+.wp-box > .admin-help,
+.wp-box > .editor-toolbar,
+.wp-box > .wp-preview,
+.wp-box > .seo-count {
+  margin: 16px;
+}
+
+.editor-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.editor-toolbar button {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #050505;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 900;
+  padding: 0 12px;
+}
+
+.wp-full {
+  width: calc(100% - 32px);
+  margin: 16px;
+}
+
+.wp-thumb-preview,
+.wp-preview-cover {
+  display: block;
+  width: calc(100% - 32px);
+  margin: 0 16px 16px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.wp-thumb-preview {
+  aspect-ratio: 1.55;
+  object-fit: cover;
+}
+
+.wp-preview {
+  border-radius: 6px;
+  background: #080808;
+  padding: 18px;
+}
+
+.wp-preview h1 {
+  margin: 0 0 12px;
+  font-size: clamp(28px, 4vw, 46px);
+  line-height: 1.15;
+}
+
+.wp-preview .blog-content h2 {
+  font-size: 25px;
+}
+
+.wp-preview .blog-content h3 {
+  font-size: 20px;
+}
+
+.wp-preview .blog-content p {
+  font-size: 16px;
+}
+
+.seo-count {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
 @media (max-width: 1040px) {
   .main-nav {
     display: none;
@@ -1197,13 +1318,18 @@ select {
     position: static;
   }
 
-  .admin-shell {
+  .admin-shell,
+  .wp-layout {
     grid-template-columns: 1fr;
   }
 
   .admin-sidebar {
     position: static;
     height: auto;
+  }
+
+  .wp-meta {
+    position: static;
   }
 }
 

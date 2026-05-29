@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import BlogContent from "@/components/BlogContent";
 
 const blankPost = {
   slug: "",
@@ -89,6 +90,13 @@ export default function AdminBlogDashboard() {
     setCurrent((post) => ({ ...post, [key]: value }));
   }
 
+  function insertSnippet(snippet) {
+    setCurrent((post) => ({
+      ...post,
+      content: `${post.content || ""}${post.content ? "\n\n" : ""}${snippet}`
+    }));
+  }
+
   async function savePost(event) {
     event.preventDefault();
     setLoading(true);
@@ -161,10 +169,10 @@ export default function AdminBlogDashboard() {
         </div>
       </aside>
 
-      <form className="admin-editor" onSubmit={savePost}>
+      <form className="admin-editor wordpress-editor" onSubmit={savePost}>
         <div className="admin-editor-head">
           <div>
-            <p className="eyebrow">POST EDITOR</p>
+            <p className="eyebrow">WORDPRESS STYLE</p>
             <h2>{current.title || "บทความใหม่"}</h2>
           </div>
           <div className="admin-actions">
@@ -175,30 +183,81 @@ export default function AdminBlogDashboard() {
 
         {message ? <p className="admin-message">{message}</p> : null}
 
-        <section className="admin-panel">
-          <h3>ข้อมูลบทความ</h3>
-          <div className="admin-grid">
-            <Field label="Slug" value={current.slug} onChange={(value) => update("slug", value)} />
-            <Field label="วันที่เผยแพร่" type="date" value={current.publishedAt} onChange={(value) => update("publishedAt", value)} />
-            <Field label="หัวข้อ H1" value={current.title} onChange={(value) => update("title", value)} />
-            <label className="admin-field">
-              <span>สถานะ</span>
-              <select value={current.status} onChange={(event) => update("status", event.target.value)}>
-                <option value="published">Published</option>
-                <option value="draft">Draft</option>
-              </select>
-            </label>
-            <TextArea label="คำอธิบายสั้น" rows={3} value={current.excerpt} onChange={(value) => update("excerpt", value)} />
-            <TextArea label="Cover image URL" rows={2} value={current.coverImage} onChange={(value) => update("coverImage", value)} />
-            <TextArea label="Keywords หนึ่งคำต่อบรรทัด" rows={4} value={toLines(current.keywords)} onChange={(value) => update("keywords", fromLines(value))} />
-          </div>
-        </section>
+        <div className="wp-layout">
+          <div className="wp-main">
+            <section className="admin-panel wp-box">
+              <div className="wp-box-head">
+                <h3>เขียนบทความ</h3>
+                <span>Editor</span>
+              </div>
+              <Field label="หัวข้อ H1" value={current.title} onChange={(value) => update("title", value)} />
+              <TextArea label="คำอธิบายสั้น" rows={3} value={current.excerpt} onChange={(value) => update("excerpt", value)} />
+              <div className="editor-toolbar" aria-label="เครื่องมือเขียนบทความ">
+                <button type="button" onClick={() => insertSnippet("## หัวข้อย่อย")}>H2</button>
+                <button type="button" onClick={() => insertSnippet("### หัวข้อเล็ก")}>H3</button>
+                <button type="button" onClick={() => insertSnippet("![คำอธิบายรูป](https://example.com/image.jpg)")}>รูป</button>
+                <button type="button" onClick={() => insertSnippet("[ข้อความลิงก์](https://example.com)")}>ลิงก์</button>
+                <button type="button" onClick={() => insertSnippet("ย่อหน้าใหม่...")}>ย่อหน้า</button>
+              </div>
+              <p className="admin-help">ใส่รูปจากเว็บอื่นได้ด้วยรูปแบบ Markdown: ![คำอธิบาย](https://example.com/image.jpg)</p>
+              <TextArea label="เนื้อหาบทความ" rows={20} value={current.content} onChange={(value) => update("content", value)} />
+            </section>
 
-        <section className="admin-panel">
-          <h3>เนื้อหา</h3>
-          <p className="admin-help">ใส่รูปจากเว็บอื่นได้ด้วยรูปแบบ Markdown: ![คำอธิบาย](https://example.com/image.jpg)</p>
-          <TextArea label="เนื้อหาบทความ" rows={18} value={current.content} onChange={(value) => update("content", value)} />
-        </section>
+            <section className="admin-panel wp-box">
+              <div className="wp-box-head">
+                <h3>Preview</h3>
+                <span>ตัวอย่างหน้าโพสต์</span>
+              </div>
+              <article className="wp-preview">
+                <p className="eyebrow">ROADZ BLOG</p>
+                <h1>{current.title || "หัวข้อบทความ"}</h1>
+                {current.excerpt ? <p className="blog-excerpt">{current.excerpt}</p> : null}
+                {current.coverImage ? <img className="wp-preview-cover" src={current.coverImage} alt={current.title || "cover"} /> : null}
+                <BlogContent content={current.content} />
+              </article>
+            </section>
+          </div>
+
+          <aside className="wp-meta">
+            <section className="admin-panel wp-box">
+              <div className="wp-box-head">
+                <h3>Publish</h3>
+                <span>สถานะ</span>
+              </div>
+              <label className="admin-field">
+                <span>สถานะบทความ</span>
+                <select value={current.status} onChange={(event) => update("status", event.target.value)}>
+                  <option value="published">Published</option>
+                  <option value="draft">Draft</option>
+                </select>
+              </label>
+              <Field label="วันที่เผยแพร่" type="date" value={current.publishedAt} onChange={(value) => update("publishedAt", value)} />
+              <Field label="Slug" value={current.slug} onChange={(value) => update("slug", value)} />
+              <button className="admin-primary wp-full" type="submit" disabled={loading}>{loading ? "กำลังบันทึก..." : "Publish"}</button>
+            </section>
+
+            <section className="admin-panel wp-box">
+              <div className="wp-box-head">
+                <h3>Featured Image</h3>
+                <span>รูปปก</span>
+              </div>
+              <TextArea label="Cover image URL" rows={3} value={current.coverImage} onChange={(value) => update("coverImage", value)} />
+              {current.coverImage ? <img className="wp-thumb-preview" src={current.coverImage} alt="cover preview" /> : null}
+            </section>
+
+            <section className="admin-panel wp-box">
+              <div className="wp-box-head">
+                <h3>SEO</h3>
+                <span>On-page</span>
+              </div>
+              <TextArea label="Keywords หนึ่งคำต่อบรรทัด" rows={6} value={toLines(current.keywords)} onChange={(value) => update("keywords", fromLines(value))} />
+              <div className="seo-count">
+                <span>Title: {(current.title || "").length} ตัวอักษร</span>
+                <span>Description: {(current.excerpt || "").length} ตัวอักษร</span>
+              </div>
+            </section>
+          </aside>
+        </div>
       </form>
     </main>
   );
