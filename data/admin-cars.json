@@ -1,8 +1,82 @@
 [
   {
+    "slug": "toyota-fortuner-2-8-v-4wd-at-2016",
+    "sourceFolder": "TOYOTA FORTUNER 2.8 V 4WD AT  (ปี 2016)",
+    "badge": "ยอดนิยม",
+    "brand": "TOYOTA",
+    "model": "FORTUNER",
+    "trim": "2.8 V 4WD AT",
+    "title": "TOYOTA FORTUNER 2.8 V 4WD AT",
+    "year": "2016",
+    "registeredYear": "",
+    "plate": "6กค 6274 (กรุงเทพมหานคร)",
+    "color": "ขาว",
+    "engine": "ดีเซล 2800cc",
+    "mileage": "108,xxx กม.",
+    "fuel": "ดีเซล",
+    "transmission": "อัตโนมัติ",
+    "price": 729000,
+    "installment": "13,xxx",
+    "category": "รถSUV",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/01.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/02.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/03.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/04.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/05.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/06.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/07.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/08.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/09.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/10.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/11.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/12.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/13.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/14.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/15.jpg",
+      "/cars/toyota-fortuner-2-8-v-4wd-at-2016/16.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "TOYOTA FORTUNER 2.8 V 4WD AT สีขาว เลขไมล์ 108,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "TOYOTA FORTUNER 2.8 V 4WD AT มือสอง ราคา 729,000 บาท",
+      "headings": [
+        "TOYOTA FORTUNER 2.8 V 4WD AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "TOYOTA FORTUNER 2.8 V 4WD AT เป็นรถมือสองประเภทรถSUV สีขาว เลขไมล์ 108,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์ดีเซล 2800cc เกียร์อัตโนมัติ ราคา 729,000 บาท และผ่อนเริ่มต้นประมาณ 13,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
     "slug": "honda-city-1-5-ehev-rs-at-2023",
     "sourceFolder": "A260510No-10000",
-    "badge": "ยอดนิยม",
+    "badge": "ใหม่ล่าสุด",
     "brand": "HONDA",
     "model": "CITY",
     "trim": "1.5 e-HEV RS AT",
@@ -167,6 +241,592 @@
         "เอกสารและไฟแนนซ์"
       ],
       "body": "TOYOTA COROLLA ALTIS 1.8 HYBRID PREMIUM AT เป็นรถมือสองประเภทรถเก๋ง สีเทา เลขไมล์ 38,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน + ไฟฟ้า 1800cc เกียร์อัตโนมัติ ราคา 599,000 บาท และผ่อนเริ่มต้นประมาณ 10,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "toyota-yaris-1-2-g-at-2013",
+    "sourceFolder": "A251239No",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "TOYOTA",
+    "model": "YARIS",
+    "trim": "1.2 G AT",
+    "title": "TOYOTA YARIS 1.2 G AT",
+    "year": "2013",
+    "registeredYear": "2014",
+    "plate": "2กอ 4024 (กรุงเทพมหานคร)",
+    "color": "ขาว",
+    "engine": "เบนซิน 1200cc",
+    "mileage": "124,xxx กม.",
+    "fuel": "เบนซิน",
+    "transmission": "อัตโนมัติ",
+    "price": 239000,
+    "installment": "4,xxx",
+    "category": "รถเก๋ง",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/toyota-yaris-1-2-g-at-2013/01.jpg",
+      "/cars/toyota-yaris-1-2-g-at-2013/02.jpg",
+      "/cars/toyota-yaris-1-2-g-at-2013/03.jpg",
+      "/cars/toyota-yaris-1-2-g-at-2013/04.jpg",
+      "/cars/toyota-yaris-1-2-g-at-2013/05.jpg",
+      "/cars/toyota-yaris-1-2-g-at-2013/06.jpg",
+      "/cars/toyota-yaris-1-2-g-at-2013/07.jpg",
+      "/cars/toyota-yaris-1-2-g-at-2013/08.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "TOYOTA YARIS 1.2 G AT สีขาว เลขไมล์ 124,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "TOYOTA YARIS 1.2 G AT มือสอง ราคา 239,000 บาท",
+      "headings": [
+        "TOYOTA YARIS 1.2 G AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "TOYOTA YARIS 1.2 G AT เป็นรถมือสองประเภทรถเก๋ง สีขาว เลขไมล์ 124,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน 1200cc เกียร์อัตโนมัติ ราคา 239,000 บาท และผ่อนเริ่มต้นประมาณ 4,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "toyota-corolla-cross-1-8-hev-gr-sport-at-2023",
+    "sourceFolder": "9 TOYOTA COROLLA CROSS 1.8 HEV GR SPORT AT  (ปี 2023)",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "TOYOTA",
+    "model": "COROLLA",
+    "trim": "CROSS 1.8 HEV GR SPORT AT",
+    "title": "TOYOTA COROLLA CROSS 1.8 HEV GR SPORT AT",
+    "year": "2023",
+    "registeredYear": "",
+    "plate": "3ขษ 6532 (กรุงเทพมหานคร)",
+    "color": "ขาว ดำ",
+    "engine": "เบนซิน + ไฟฟ้า 1800cc",
+    "mileage": "88,xxx กม.",
+    "fuel": "เบนซิน + ไฟฟ้า",
+    "transmission": "อัตโนมัติ",
+    "price": 859000,
+    "installment": "14,xxx",
+    "category": "รถSUV",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/01.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/02.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/03.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/04.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/05.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/06.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/07.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/08.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/09.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/10.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/11.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/12.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/13.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/14.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/15.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/16.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/17.jpg",
+      "/cars/toyota-corolla-cross-1-8-hev-gr-sport-at-2023/18.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "TOYOTA COROLLA CROSS 1.8 HEV GR SPORT AT สีขาว ดำ เลขไมล์ 88,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "TOYOTA COROLLA CROSS 1.8 HEV GR SPORT AT มือสอง ราคา 859,000 บาท",
+      "headings": [
+        "TOYOTA COROLLA CROSS 1.8 HEV GR SPORT AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "TOYOTA COROLLA CROSS 1.8 HEV GR SPORT AT เป็นรถมือสองประเภทรถSUV สีขาว ดำ เลขไมล์ 88,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน + ไฟฟ้า 1800cc เกียร์อัตโนมัติ ราคา 859,000 บาท และผ่อนเริ่มต้นประมาณ 14,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "mitsubishi-xpander-1-5-cross-at-2020",
+    "sourceFolder": "8 MITSUBISHI XPANDER 1.5 CROSS AT  (ปี 2020 จด 2021)",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "MITSUBISHI",
+    "model": "XPANDER",
+    "trim": "1.5 CROSS AT",
+    "title": "MITSUBISHI XPANDER 1.5 CROSS AT",
+    "year": "2020",
+    "registeredYear": "2021",
+    "plate": "จก 5087 (เชียงใหม่)",
+    "color": "ขาว",
+    "engine": "เบนซิน 1500cc",
+    "mileage": "73,xxx กม.",
+    "fuel": "เบนซิน",
+    "transmission": "อัตโนมัติ",
+    "price": 539000,
+    "installment": "9,xxx",
+    "category": "รถมือสอง",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/01.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/02.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/03.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/04.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/05.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/06.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/07.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/08.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/09.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/10.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/11.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/12.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/13.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/14.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/15.jpg",
+      "/cars/mitsubishi-xpander-1-5-cross-at-2020/16.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "MITSUBISHI XPANDER 1.5 CROSS AT สีขาว เลขไมล์ 73,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "MITSUBISHI XPANDER 1.5 CROSS AT มือสอง ราคา 539,000 บาท",
+      "headings": [
+        "MITSUBISHI XPANDER 1.5 CROSS AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "MITSUBISHI XPANDER 1.5 CROSS AT เป็นรถมือสองประเภทรถมือสอง สีขาว เลขไมล์ 73,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน 1500cc เกียร์อัตโนมัติ ราคา 539,000 บาท และผ่อนเริ่มต้นประมาณ 9,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "honda-cr-v-2-0-rs-e-hev-awd-at-2023",
+    "sourceFolder": "7 HONDA CR-V 2.0 RS e-HEV AWD AT ",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "HONDA",
+    "model": "CR-V",
+    "trim": "2.0 RS e:HEV AWD AT",
+    "title": "HONDA CR-V 2.0 RS e:HEV AWD AT",
+    "year": "2023",
+    "registeredYear": "2024",
+    "plate": "5ขด 522 (กรุงเทพมหานคร)",
+    "color": "เทา",
+    "engine": "เบนซิน + ไฟฟ้า 2000cc",
+    "mileage": "33,xxx กม.",
+    "fuel": "เบนซิน + ไฟฟ้า",
+    "transmission": "อัตโนมัติ",
+    "price": 1299000,
+    "installment": "21,xxx",
+    "category": "รถSUV",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/01.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/02.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/03.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/04.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/05.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/06.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/07.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/08.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/09.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/10.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/11.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/12.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/13.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/14.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/15.jpg",
+      "/cars/honda-cr-v-2-0-rs-e-hev-awd-at-2023/16.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "HONDA CR-V 2.0 RS e:HEV AWD AT สีเทา เลขไมล์ 33,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "HONDA CR-V 2.0 RS e:HEV AWD AT มือสอง ราคา 1,299,000 บาท",
+      "headings": [
+        "HONDA CR-V 2.0 RS e:HEV AWD AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "HONDA CR-V 2.0 RS e:HEV AWD AT เป็นรถมือสองประเภทรถSUV สีเทา เลขไมล์ 33,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน + ไฟฟ้า 2000cc เกียร์อัตโนมัติ ราคา 1,299,000 บาท และผ่อนเริ่มต้นประมาณ 21,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "honda-hr-v-1-5-e-e-hev-at-2024",
+    "sourceFolder": "6 HONDA HR-V 1.5 E eHEV AT (ปี 2024)",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "HONDA",
+    "model": "HR-V",
+    "trim": "1.5 E e:HEV AT",
+    "title": "HONDA HR-V 1.5 E e:HEV AT",
+    "year": "2024",
+    "registeredYear": "",
+    "plate": "ขท 8319 (สุราษฎร์ธานี)",
+    "color": "ขาว",
+    "engine": "เบนซิน + ไฟฟ้า 1500cc",
+    "mileage": "52,xxx กม.",
+    "fuel": "เบนซิน + ไฟฟ้า",
+    "transmission": "อัตโนมัติ",
+    "price": 689000,
+    "installment": "11,xxx",
+    "category": "รถSUV",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/01.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/02.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/03.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/04.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/05.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/06.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/07.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/08.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/09.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/10.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/11.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/12.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/13.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/14.jpg",
+      "/cars/honda-hr-v-1-5-e-e-hev-at-2024/15.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "HONDA HR-V 1.5 E e:HEV AT สีขาว เลขไมล์ 52,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "HONDA HR-V 1.5 E e:HEV AT มือสอง ราคา 689,000 บาท",
+      "headings": [
+        "HONDA HR-V 1.5 E e:HEV AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "HONDA HR-V 1.5 E e:HEV AT เป็นรถมือสองประเภทรถSUV สีขาว เลขไมล์ 52,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน + ไฟฟ้า 1500cc เกียร์อัตโนมัติ ราคา 689,000 บาท และผ่อนเริ่มต้นประมาณ 11,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "subaru-forester-2-0-i-s-eyesight-awd-at-2019",
+    "sourceFolder": "5 SUBARU FORESTER 2.0 I-S EyeSight​​ AWD AT (ปี 2019 จด 2020)",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "SUBARU",
+    "model": "FORESTER",
+    "trim": "2.0 I-S EyeSight​​ AWD AT",
+    "title": "SUBARU FORESTER 2.0 I-S EyeSight​​ AWD AT",
+    "year": "2019",
+    "registeredYear": "2020",
+    "plate": "5กภ 7244 (กรุงเทพมหานคร)",
+    "color": "เทา",
+    "engine": "เบนซิน 2000cc",
+    "mileage": "146,xxx กม.",
+    "fuel": "เบนซิน",
+    "transmission": "อัตโนมัติ",
+    "price": 539000,
+    "installment": "9,xxx",
+    "category": "รถSUV",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/01.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/02.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/03.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/04.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/05.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/06.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/07.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/08.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/09.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/10.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/11.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/12.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/13.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/14.jpg",
+      "/cars/subaru-forester-2-0-i-s-eyesight-awd-at-2019/15.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "SUBARU FORESTER 2.0 I-S EyeSight​​ AWD AT สีเทา เลขไมล์ 146,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "SUBARU FORESTER 2.0 I-S EyeSight​​ AWD AT มือสอง ราคา 539,000 บาท",
+      "headings": [
+        "SUBARU FORESTER 2.0 I-S EyeSight​​ AWD AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "SUBARU FORESTER 2.0 I-S EyeSight​​ AWD AT เป็นรถมือสองประเภทรถSUV สีเทา เลขไมล์ 146,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน 2000cc เกียร์อัตโนมัติ ราคา 539,000 บาท และผ่อนเริ่มต้นประมาณ 9,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "toyota-sienta-1-5-v-at-2021",
+    "sourceFolder": "11 TOYOTA SIENTA 1.5 V AT (ปี 2021)",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "TOYOTA",
+    "model": "SIENTA",
+    "trim": "1.5 V AT",
+    "title": "TOYOTA SIENTA 1.5 V AT",
+    "year": "2021",
+    "registeredYear": "",
+    "plate": "5ขจ 9260 (กรุงเทพมหานคร)",
+    "color": "เทา",
+    "engine": "เบนซิน 1500cc",
+    "mileage": "87,xxx กม.",
+    "fuel": "เบนซิน",
+    "transmission": "อัตโนมัติ",
+    "price": 499000,
+    "installment": "8,xxx",
+    "category": "รถSUV",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/toyota-sienta-1-5-v-at-2021/01.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/02.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/03.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/04.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/05.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/06.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/07.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/08.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/09.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/10.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/11.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/12.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/13.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/14.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/15.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/16.jpg",
+      "/cars/toyota-sienta-1-5-v-at-2021/17.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "TOYOTA SIENTA 1.5 V AT สีเทา เลขไมล์ 87,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "TOYOTA SIENTA 1.5 V AT มือสอง ราคา 499,000 บาท",
+      "headings": [
+        "TOYOTA SIENTA 1.5 V AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "TOYOTA SIENTA 1.5 V AT เป็นรถมือสองประเภทรถSUV สีเทา เลขไมล์ 87,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน 1500cc เกียร์อัตโนมัติ ราคา 499,000 บาท และผ่อนเริ่มต้นประมาณ 8,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
+    }
+  },
+  {
+    "slug": "toyota-yaris-ativ-1-2-s-at-2020",
+    "sourceFolder": "10 TOYOTA YARIS ATIV 1.2 S+ AT (ปี 2020)",
+    "badge": "ใหม่ล่าสุด",
+    "brand": "TOYOTA",
+    "model": "YARIS",
+    "trim": "ATIV 1.2 S+ AT",
+    "title": "TOYOTA YARIS ATIV 1.2 S+ AT",
+    "year": "2020",
+    "registeredYear": "",
+    "plate": "1ขค 141 (กรุงเทพมหานคร)",
+    "color": "เทา",
+    "engine": "เบนซิน 1200cc",
+    "mileage": "127,xxx กม.",
+    "fuel": "เบนซิน",
+    "transmission": "อัตโนมัติ",
+    "price": 339000,
+    "installment": "5,xxx",
+    "category": "รถเก๋ง",
+    "seats": "5 ที่นั่ง",
+    "doors": "4 ประตู",
+    "condition": "เกรด A",
+    "images": [
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/01.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/02.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/03.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/04.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/05.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/06.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/07.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/08.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/09.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/10.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/11.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/12.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/13.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/14.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/15.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/16.jpg",
+      "/cars/toyota-yaris-ativ-1-2-s-at-2020/17.jpg"
+    ],
+    "keywords": [],
+    "highlights": [
+      "รับประกัน เครื่องยนต์/เกียร์ 2 ปีเต็ม หรือ 20,000 กิโลเมตร",
+      "รถประวัติดี มีเอกสารครบถ้วน",
+      "ไม่เคยมีอุบัติเหตุหนัก",
+      "ไม่เคยไฟไหม้/น้ำท่วม",
+      "ผ่านการตรวจสภาพ U-Car Grading 344 จุด โดย Goo Inspection (JAAA) ญี่ปุ่น (สามารถขอดูใบรับรองสภาพได้)"
+    ],
+    "promotions": [
+      "บริการจัดไฟแนนซ์ให้ถึงบ้านทั่วประเทศ",
+      "ตรวจเช็คระบบของเหลว/เปลี่ยนถ่ายน้ำมันเครื่องพร้อมไส้กรองใหม่ก่อนส่งมอบ",
+      "ล้าง/อบโอโซน/สปารถก่อนส่งมอบ",
+      "บริการส่งมอบรถให้ถึงบ้านทั่วประเทศ",
+      "บริการช่วยเหลือฉุกเฉินทั่วประเทศ ตลอด 24 ชั่วโมง 1 ปีเต็ม!"
+    ],
+    "features": [
+      "ระบบเบรก ABS",
+      "AIRBAG",
+      "กล้องมองหลัง",
+      "เบาะหนัง",
+      "พวงมาลัยมัลติฟังก์ชัน",
+      "ล้อแม็ก"
+    ],
+    "description": "TOYOTA YARIS ATIV 1.2 S+ AT สีเทา เลขไมล์ 127,xxx กม. รถประวัติดี เอกสารครบ พร้อมรับประกันและบริการหลังการขาย",
+    "onPageArticle": {
+      "title": "TOYOTA YARIS ATIV 1.2 S+ AT มือสอง ราคา 339,000 บาท",
+      "headings": [
+        "TOYOTA YARIS ATIV 1.2 S+ AT เหมาะกับใคร",
+        "จุดเด่นและความคุ้มค่า",
+        "เอกสารและไฟแนนซ์"
+      ],
+      "body": "TOYOTA YARIS ATIV 1.2 S+ AT เป็นรถมือสองประเภทรถเก๋ง สีเทา เลขไมล์ 127,xxx กม. เหมาะสำหรับลูกค้าที่ต้องการรถสภาพดี ใช้งานง่าย และมีข้อมูลตรวจสอบครบก่อนตัดสินใจ\n\nคันนี้มาพร้อมเครื่องยนต์เบนซิน 1200cc เกียร์อัตโนมัติ ราคา 339,000 บาท และผ่อนเริ่มต้นประมาณ 5,xxx บาทต่อเดือนตามเงื่อนไขไฟแนนซ์\n\nลูกค้าสามารถสอบถามรายละเอียดเพิ่มเติม ขอแผนผ่อน นัดดูรถ หรือขอรูปเพิ่มเติมผ่าน LINE ได้โดยตรง"
     }
   }
 ]

@@ -56,8 +56,8 @@ function readField(text, label) {
 }
 
 function readPrice(text) {
-  const match = text.match(/ราคา\s*:\s*([0-9,]+)/i);
-  return match ? Number(match[1].replace(/,/g, "")) : 0;
+  const match = text.match(/ราคา\s*:\s*([0-9,\s]+)\s*บาท/i);
+  return match ? Number(match[1].replace(/[^0-9]/g, "")) : 0;
 }
 
 function readInstallment(text) {
@@ -169,10 +169,14 @@ function readHighlights(lines) {
 }
 
 async function findTextFile(carDir) {
-  const entries = await fs.readdir(carDir);
-  const candidates = entries.filter((entry) => {
+  const entries = await fs.readdir(carDir, { withFileTypes: true });
+  const candidates = entries.filter((entry) => entry.isFile()).map((entry) => entry.name).filter((entry) => {
     const name = entry.trim().toLowerCase();
-    return name === "readme.md" || name.endsWith(".txt") || name.endsWith(".md");
+    const ext = path.extname(name);
+    if (name === ".ds_store") return false;
+    if (imageExtensions.has(ext)) return false;
+    if (["article.md", "article.txt", "onpage.md", "onpage.txt", "content.md", "content.txt"].includes(name)) return false;
+    return true;
   });
   candidates.sort((a, b) => {
     const score = (name) => {
