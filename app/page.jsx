@@ -22,6 +22,7 @@ function Header() {
           <Link href="#popular">รถยอดนิยม</Link>
           <Link href="#brands">แบรนด์</Link>
           <Link href="#promo">โปรโมชั่น</Link>
+          <Link href="/blog">บทความ</Link>
           <Link href="#reviews">รีวิวลูกค้า</Link>
           <Link href={lineUrl}>ติดต่อเรา</Link>
         </nav>
@@ -152,6 +153,7 @@ export default function HomePage() {
             <Link href="/">หน้าแรก</Link>
             <Link href="#cars">รถทั้งหมด</Link>
             <Link href="#promo">โปรโมชั่น</Link>
+            <Link href="/blog">บทความ</Link>
             <Link href={lineUrl}>ติดต่อเรา</Link>
           </div>
           <div>

@@ -220,6 +220,7 @@ export default function AdminDashboard() {
           <p className="eyebrow">ROADZ ADMIN</p>
           <h1>จัดการเว็บ</h1>
         </div>
+        <a className="admin-link" href="/admin/blog">จัดการบทความ</a>
         <button className="admin-primary" type="button" onClick={newCar}>เพิ่มรถใหม่</button>
         <div className="admin-car-list">
           {cars.map((car) => (

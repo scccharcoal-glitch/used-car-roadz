@@ -14,6 +14,7 @@ Next.js website for ROADZ Used Cars, designed from the red/black ROADZ visual di
 - SEO sitemap and robots routes
 - Per-car on-page article section
 - Admin dashboard at `/admin`
+- Blog page at `/blog` with post pages at `/blog/<slug>`
 
 ## Run Locally
 
@@ -68,8 +69,21 @@ The admin dashboard can:
 - Upload car images
 - Edit the on-page SEO article
 - Publish changes into `data/admin-cars.json`
+- Manage blog posts at `/admin/blog`
 
 On Vercel, publishing uses the GitHub token to commit back to the repository. That push triggers a new Vercel deployment automatically, so public pages update after the deployment finishes.
+
+Blog post content supports a small Markdown-style format:
+
+```md
+## Heading
+
+Paragraph text...
+
+![Alt text](https://example.com/image.jpg)
+```
+
+Images can use external URLs or local paths.
 
 ## Import Car Folders
 

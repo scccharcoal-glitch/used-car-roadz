@@ -42,6 +42,7 @@ function Header() {
           <Link href="/#popular">รถยอดนิยม</Link>
           <Link href="/#brands">แบรนด์</Link>
           <Link href="/#promo">โปรโมชั่น</Link>
+          <Link href="/blog">บทความ</Link>
           <Link href="/#reviews">รีวิวลูกค้า</Link>
           <Link href={lineUrl}>ติดต่อเรา</Link>
         </nav>
