@@ -13,6 +13,7 @@ Next.js website for ROADZ Used Cars, designed from the red/black ROADZ visual di
 - No phone number is displayed in the UI
 - SEO sitemap and robots routes
 - Per-car on-page article section
+- Admin dashboard at `/admin`
 
 ## Run Locally
 
@@ -34,6 +35,41 @@ npm run build
 ```
 
 Build passes in this workspace.
+
+## Admin Dashboard
+
+Open:
+
+```text
+https://used-car-roadz.vercel.app/admin
+```
+
+Local development password, when `ADMIN_PASSWORD` is not set:
+
+```text
+roadz-admin
+```
+
+For production on Vercel, set these Environment Variables:
+
+```text
+ADMIN_PASSWORD=choose-a-strong-password
+ADMIN_SESSION_SECRET=choose-a-long-random-secret
+GITHUB_TOKEN=github-personal-access-token-with-repo-access
+GITHUB_REPO_OWNER=scccharcoal-glitch
+GITHUB_REPO_NAME=used-car-roadz
+GITHUB_BRANCH=main
+NEXT_PUBLIC_SITE_URL=https://used-car-roadz.vercel.app
+```
+
+The admin dashboard can:
+
+- Add, edit, and delete cars
+- Upload car images
+- Edit the on-page SEO article
+- Publish changes into `data/admin-cars.json`
+
+On Vercel, publishing uses the GitHub token to commit back to the repository. That push triggers a new Vercel deployment automatically, so public pages update after the deployment finishes.
 
 ## Import Car Folders
 
@@ -108,4 +144,4 @@ Vercel build command:
 npm run build
 ```
 
-Important: Vercel uses the committed `data/generated-cars.js` and `public/cars/` files. Run `npm run import:cars` locally before committing whenever car folders change.
+Important: Vercel uses the committed `data/admin-cars.json`, `data/generated-cars.js`, and `public/cars/` files. The admin dashboard edits `data/admin-cars.json`. If you use the folder importer locally, run `npm run import:cars`, then copy or merge imported data into the admin dashboard before publishing.

@@ -1,4 +1,5 @@
 import { generatedCars } from "./generated-cars";
+import adminCars from "./admin-cars.json";
 
 export const lineUrl = "https://line.me/ti/p/Sc8V8TxeYc";
 export const showroomAddress = "กรุงเทพฯ เขตตลิ่งชัน ถนนกาญจนาภิเษก-สวนผัก (ภายในศูนย์รวมรถยนต์เดอะเบสท์ 5)";
@@ -116,7 +117,7 @@ const fallbackCars = [
   }
 ];
 
-export const cars = generatedCars.length ? generatedCars : fallbackCars;
+export const cars = adminCars.length ? adminCars : generatedCars.length ? generatedCars : fallbackCars;
 export const featuredCar = cars[0];
 
 export function formatBaht(value) {

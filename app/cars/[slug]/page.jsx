@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import CarGallery from "@/components/CarGallery";
 import FinanceCalculator from "@/components/FinanceCalculator";
 import { cars, formatBaht, lineUrl, showroomAddress } from "@/data/cars";
 
@@ -80,22 +81,7 @@ export default async function CarDetailPage({ params }) {
         </nav>
 
         <div className="detail-layout">
-          <section className="gallery-section">
-            <div className="gallery-hero">
-              <Image src={car.images[0]} alt={`${car.title} ${car.color}`} fill priority sizes="(max-width: 900px) 100vw, 65vw" />
-              <span className="badge">{car.badge}</span>
-              <button className="gallery-arrow left" aria-label="ดูรูปก่อนหน้า">‹</button>
-              <button className="gallery-arrow right" aria-label="ดูรูปถัดไป">›</button>
-            </div>
-            <div className="thumb-strip">
-              {car.images.slice(0, 6).map((image, index) => (
-                <div className="thumb" key={image}>
-                  <Image src={image} alt={`${car.title} รูปที่ ${index + 1}`} fill sizes="120px" />
-                  {index === 5 ? <span>+{car.images.length - 5}</span> : null}
-                </div>
-              ))}
-            </div>
-          </section>
+          <CarGallery car={car} />
 
           <aside className="detail-sidebar">
             <section className="side-card price-card">
@@ -139,7 +125,7 @@ export default async function CarDetailPage({ params }) {
           </aside>
 
           <article className="info-card">
-            <h1>รายละเอียดรถ</h1>
+            <h2>รายละเอียดรถ</h2>
             <div className="detail-grid">
               <DetailRow label="แบรนด์" value={car.brand} />
               <DetailRow label="รุ่น" value={car.model} />
@@ -209,7 +195,7 @@ export default async function CarDetailPage({ params }) {
 
         <section className="onpage-section">
           <p className="eyebrow">ON-PAGE ARTICLE</p>
-          <h2>{car.onPageArticle?.title || `${car.title} มือสอง`}</h2>
+          <h1>{car.onPageArticle?.title || `${car.title} มือสอง`}</h1>
           <div className="onpage-grid">
             {(car.onPageArticle?.headings || []).map((heading) => (
               <h3 key={heading}>{heading}</h3>
