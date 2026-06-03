@@ -13,6 +13,9 @@ export const metadata = {
   icons: {
     icon: "/icon.svg",
     apple: "/apple-icon.svg"
+  },
+  verification: {
+    google: "L58KGJi9DZ5BWkQA5CJQr-Iw1-RbN83M5tAMmQls8pY"
   }
 };
 
